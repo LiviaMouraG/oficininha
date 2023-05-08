@@ -1,0 +1,42 @@
+#menu {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #a9abad;
+    font-size: 16pt;
+}
+
+#menu a{
+    text-decoration: none;
+    color:#000000;
+}
+#menu a:hover {
+text-decoration: none;
+color: #ededed;
+}
+
+#menu li{
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+.letra p {
+
+    background-color: #ffffff;
+    text-align: center;
+   color: black;
+}
+
+.flex {
+    display: flex;
+}
+
+.center{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-column{
+    flex-direction: column;
+}
